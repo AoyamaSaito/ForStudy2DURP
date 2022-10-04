@@ -1,0 +1,4 @@
+.BlueButton {
+    color: rgba(0, 0, 0, 255);
+    background-color: rgba(192, 191, 255, 255);
+}
