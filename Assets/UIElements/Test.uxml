@@ -1,17 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/UIElements/TestUSS.uss?fileID=7433441132597879392&amp;guid=28c8c5025e5442c4cbe7a012ba2a3307&amp;type=3#TestUSS" />
-    <ui:Label text="kakakaka" display-tooltip-when-elided="true" />
-    <ui:Button text="Button" display-tooltip-when-elided="true" class="BlueButton" />
-    <ui:RadioButton label="Radio Button" style="opacity: 1; background-color: rgb(255, 0, 0);" />
-    <ui:RadioButtonGroup label="Radio Button Group" value="-1" />
-    <ui:ProgressBar title="my-progress" />
-    <ui:Scroller high-value="100" direction="Horizontal" value="42" />
-    <ui:GroupBox style="height: 214px;">
-        <ui:VisualElement style="height: 161px; flex-direction: row;">
-            <ui:Toggle label="Toggle">
-                <ui:Foldout text="Foldout" />
-            </ui:Toggle>
-        </ui:VisualElement>
-    </ui:GroupBox>
-    <ui:Slider picking-mode="Ignore" label="Slider" value="42" high-value="100" />
+    <ui:Button text="Button" display-tooltip-when-elided="true" />
+    <ui:Label text="Label" display-tooltip-when-elided="true" style="height: 43px; width: 196px; font-size: 35px; white-space: nowrap; position: relative; left: 99px;" />
 </ui:UXML>
